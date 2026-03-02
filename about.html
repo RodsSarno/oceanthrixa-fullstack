@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oceanthrixa — About</title>
+  <link rel="stylesheet" href="CSS/style.CSS" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Oceanthrixa — Home">
+        <img class="brand-logo" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol (logo mark)" />
+        <img class="brand-wordmark" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa wordmark" />
+        <span class="visually-hidden">Oceanthrixa</span>
+      </a>
+
+      <nav aria-label="Main menu">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about-hero">
+      <h1>Our story</h1>
+      <p>Oceanthrixa was born from the collaboration of electronic engineers and oceanographers with a single goal: to create reliable equipment for underwater environments. From lab prototypes to commercial solutions, durability and integration are our priorities.</p>
+    </section>
+
+    <section class="mvz">
+      <h2>Mission, Vision & Values</h2>
+      <div class="mvz-grid">
+        <div class="mvz-card">
+          <h3>Mission</h3>
+          <p>Deliver secure, affordable subsea electronic solutions that enable data collection and automation in marine environments.</p>
+        </div>
+        <div class="mvz-card">
+          <h3>Vision</h3>
+          <p>Become a regional reference for subsea technology, innovating in sensors and water-resistant connectivity.</p>
+        </div>
+        <div class="mvz-card">
+          <h3>Values</h3>
+          <ul>
+            <li>Reliability</li>
+            <li>Transparency</li>
+            <li>Responsible innovation</li>
+            <li>Sustainability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-logo-sm" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol small" />
+        <img class="brand-wordmark-sm" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa small wordmark" />
+      </div>
+      <p>© <span id="year2"></span> Oceanthrixa — Subsea Technologies</p>
+      <p>Contact: <a href="mailto:contact@oceanthrixa.com">contact@oceanthrixa.com</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

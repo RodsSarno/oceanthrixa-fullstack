@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oceanthrixa — Home</title>
+  <link rel="stylesheet" href="CSS/style.CSS" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Oceanthrixa — Home">
+        <img class="brand-logo" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol (logo mark)" />
+        <img class="brand-wordmark" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa wordmark" />
+        <span class="visually-hidden">Oceanthrixa</span>
+      </a>
+
+      <nav aria-label="Main menu">
+        <ul class="nav">
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Waterproof electronics & subsea solutions</h1>
+      <p>At Oceanthrixa we design rugged sensors, enclosures and communication modules built to operate reliably in underwater environments — from coastal inspection to offshore energy applications.</p>
+      <p><a class="btn primary" href="contact.html" aria-label="Request a quote">Request a quote</a></p>
+    </section>
+
+    <section class="benefits">
+      <h2>Why choose Oceanthrixa?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Certified ruggedness</h3>
+          <p>IP68-rated components and extended subsea endurance testing.</p>
+        </article>
+
+        <article class="card">
+          <h3>Easy integration</h3>
+          <p>Standard APIs and interfaces for embedded systems and monitoring platforms.</p>
+        </article>
+
+        <article class="card">
+          <h3>Technical support</h3>
+          <p>Specialized team for installation, calibration and marine maintenance.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-logo-sm" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol small" />
+        <img class="brand-wordmark-sm" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa small wordmark" />
+      </div>
+      <p>© <span id="year"></span> Oceanthrixa — Subsea Technologies</p>
+      <p>Contact: <a href="mailto:contact@oceanthrixa.com">contact@oceanthrixa.com</a> • <a href="tel:+5571999990000">+55 (71) 99999-0000</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

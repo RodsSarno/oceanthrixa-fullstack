@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oceanthrixa — Contact</title>
+  <link rel="stylesheet" href="CSS/style.CSS" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Oceanthrixa — Home">
+        <img class="brand-logo" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol (logo mark)" />
+        <img class="brand-wordmark" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa wordmark" />
+        <span class="visually-hidden">Oceanthrixa</span>
+      </a>
+
+      <nav aria-label="Main menu">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-hero">
+      <h1>Contact us</h1>
+      <p>Fill the form below or use the direct email/phone links.</p>
+
+      <form class="contact-form" action="#" method="post" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+
+      <div class="contact-links">
+        <p>Or reach us by:</p>
+        <p><a href="mailto:contact@oceanthrixa.com">contact@oceanthrixa.com</a> • <a href="tel:+5571999990000">+55 (71) 99999-0000</a></p>
+        <p><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> (company profile)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="brand-logo-sm" src="img/OceanthrixaLogomarca.png" alt="Oceanthrixa symbol small" />
+        <img class="brand-wordmark-sm" src="img/Oceanthrixa%20Nome.png" alt="Oceanthrixa small wordmark" />
+      </div>
+      <p>© <span id="year3"></span> Oceanthrixa — Subsea Technologies</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
